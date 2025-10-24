@@ -1,0 +1,29 @@
+Encapsulamento
+    Visibilidade UML
+
+    Simbolo / Siginificado
+        +   /   Publico
+        -   /   Privado
+        #   /   Protegido
+
+    Exemplo : 
+        Classe Aluno 
+        - matricula 
+        + cpf
+        + nome 
+        # notas 
+    --------------------
+        +Aluno
+        +cadastrarNotas
+        +mediaNotas
+
+    Encapsulamento é um dos pilares da orientação a objetos
+    Ele vem do conceito de uma capsula da vida real 
+    Protege o que esta dentro 
+    Protege o que esta fora 
+
+Vantagens
+    Abstração oferecida: o funcionamento interno dos objetos da classe não fica visivel ao programador
+    que a utiliza
+    Possibilidade de acrescentar funcionalidade a classe, desdes que respeitando a interface original:
+    isso mantera o sistema funcional sem alterações 

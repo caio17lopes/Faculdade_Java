@@ -1,0 +1,11 @@
+Palavras reservadas Super e This
+    Super 
+        Palavra reservada 
+        Faz referencia explicita a superclasse 
+        Invoca o construtor da superclasse 
+
+    This 
+        Palavra REservada 
+        Faz referencia explicita ao proprio objeto/ a propria classe 
+        Utilizado para resolver ambiguidades de nome 
+        

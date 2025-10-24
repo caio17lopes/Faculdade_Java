@@ -1,0 +1,34 @@
+LocalDate
+    Forma robusta de representação de datas
+    Substitui java.utilData e java.util.Caçendar
+    Versão 8 do java em diante
+
+    Formato 
+
+    dd = Dia do mes em dois digitos 
+    MM = mes 
+    yyyy= ano em, quatro digitos
+    HH = horas, ate 23 em dois digitos 
+    mm = minutos em dois digitos
+    ss = segundo dosi digitos 
+    hh = horas ate 12, em dois digitos 
+
+    Exemplo a baixo :
+
+    package aula5ClasseLocaldate;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LocalDate dataHoje= LocalDate.now();
+		
+		System.out.println(dataHoje);
+		DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy - EEEE");
+		System.out.println(dataHoje.format(formatador));
+}
+    }

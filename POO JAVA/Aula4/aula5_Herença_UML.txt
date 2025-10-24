@@ -1,0 +1,8 @@
+Relações 
+    Associação 
+    Agregação
+    Composição
+    Herança
+    Dependencia
+
+    

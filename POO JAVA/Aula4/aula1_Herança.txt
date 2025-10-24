@@ -1,0 +1,9 @@
+Herença
+    É usado quando tem muitas classes semelhantes 
+
+    Herança         -       nomes
+    Classe herdada  -   Classe Herdeira
+    Classe mãe      -   Classe filha
+    Superclasse     -   subclasse
+    Classe base     -   Classe especifica
+    Classe original -   Classe derivada

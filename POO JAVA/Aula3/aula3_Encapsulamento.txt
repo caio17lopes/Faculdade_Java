@@ -1,0 +1,5 @@
+Collections 
+    É uma importante API
+    Implementa diferentes estruturas de dados 
+    Encapsuladas seguindo interfaces comuns 
+    Collections.sort() ordena em ordem alfabetica 
